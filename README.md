@@ -1,7 +1,7 @@
 # DreamState
 
 <!-- ![DreamState Logo](./Assets/DreamStateLogo.png) -->
-======   
+
 
 **DREAMSTATE** was made to support the African American communities around the world to give them an outlet to share their stories and experiences of their every day lives and struggles.  These stories of theirs are their personal experiences and more likely than not, to the outsider, seems like a dream.  
 
@@ -31,7 +31,7 @@ Backend Deployment - Heroku
 
 #### Design  
 **Iconography**  
-**Fonts** 
+**Fonts**   
 DreamState logo - Orbitron, sans-serif  
 Links - Wire One, sans-serif  
 Text - Open Sans, sans-serif  
@@ -63,13 +63,13 @@ Refer to Wireframes Folder in this repository for a detailed view of each page's
 **Component Breakdown**
 Component | Type | State | Props | Description
 ------------ | ------------- | ------------ | ------------- | ------------ |
-Home | Functional | No | No | Contains random dream rendering. |
+Home | Class | No | Yes | Contains random dream rendering. |
 About | Functional | No | No | Contains description of app. |
 Navigation | Functional | No | No | Contains Logo & Links: About, Dreams, Doze Off, Wake Up and Interpret. |
 Logo | Functional | No | No | Neumorphism Text Effect of DreamState. |
 Dreams | Class | No | Yes | Contains cards of specific dreams. |
-Doze Off | Functional | Yes | No | Contains form prompting guest to submit a dream for review. |
-Contact | Functional | No | Yes | Contains contact form. |
+Doze Off | Class | Yes | No | Contains form prompting guest to submit a dream for review. |
+Contact | Class | Yes | No | Contains contact form. |
 Wake Up| Functional | No | No | Contains links to organizations and official donations sites, etc.  |
 Interpret | Functional | No | No | Contains links, resources, black-owned companies, best-seller books and educational materials to bring more awareness to user. |
 
@@ -95,9 +95,8 @@ Axios | Make front end API calls to backend |
 ## Post MVP
 Once MVP is complete future features that would benefit this app and take it to the next level include but not limited to:
 
-- [ ] 
-- [ ] 
-- [ ]   
-- [ ] 
-- [ ] 
-
+- To Be Determined
+- To Be Determined
+- To Be Determined
+- To Be Determined
+- To Be Determined
