@@ -43,7 +43,7 @@ Headers/Subheaders - Montserrat, serif
 Refer to Wireframes Folder in this repository for a detailed view of each page's rendering.
 <!-- ![Wireframe Photo](./Wireframes/HomeDesktop.png) -->
 
-**Component Heirarchy**
+<!-- **Component Heirarchy**
       src
       |__ Assets/
         |__ images
@@ -58,7 +58,7 @@ Refer to Wireframes Folder in this repository for a detailed view of each page's
         |__ DozeOff.jsx
         |__ Contact.jsx
         |__ WakeUp.jsx
-        |__ Interpret.jsx
+        |__ Interpret.jsx -->
 
 **Component Breakdown**
 Component | Type | State | Props | Description
@@ -77,8 +77,8 @@ Interpret | Functional | No | No | Contains links, resources, black-owned compan
 **Component Tree**
 ![Component Tree Photo](./ComponentTree.png) 
 
-**ERD Model**
-![ERD Model Photo](./ERDModel.png)
+**ERD Model**   
+![ERD Model Photo](./ERDModel.png)   
 To prevent spam and user harassment as well as protect user anonminity, all stories will be directed to a site-specific account where they will be filtered out.  Stories will be posted, and spam won't be clogging the purpose of the site.
 
 **Dependancies**
