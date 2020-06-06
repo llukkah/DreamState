@@ -1,6 +1,6 @@
 # DreamState
 
-![DreamState Logo](./Assets/DreamStateLogo.png)
+<!-- ![DreamState Logo](./Assets/DreamStateLogo.png) -->
 ======   
 
 **DREAMSTATE** was made to support the African American communities around the world to give them an outlet to share their stories and experiences of their every day lives and struggles.  These stories of theirs are their personal experiences and more likely than not, to the outsider, seems like a dream.  
@@ -29,14 +29,13 @@ Frontend Deployment - Netlify
 Backend - Ruby on Rails  
 Backend Deployment - Heroku
 
-#### Design
-**Iconography** 
+#### Design  
+**Iconography**  
 **Fonts** 
 DreamState logo - Orbitron, sans-serif  
 Links - Wire One, sans-serif  
 Text - Open Sans, sans-serif  
 Headers/Subheaders - Montserrat, serif  
-
 **Color Scheme** 
 
 **WireFrame Images**   
@@ -45,21 +44,21 @@ Refer to Wireframes Folder in this repository for a detailed view of each page's
 <!-- ![Wireframe Photo](./Wireframes/HomeDesktop.png) -->
 
 **Component Heirarchy**
-    src
-    |__ Assets/
-      |__ images
-    |__ Wireframes/
-      |__ Wireframes.jsx
-    |__ Components/
-      |__ Home.jsx
-      |__ About.jsx
-      |__ Navigation.jsx
-      |__ Logo.jsx
-      |__ Dreams.jsx
-      |__ DozeOff.jsx
-      |__ Contact.jsx
-      |__ WakeUp.jsx
-      |__ Interpret.jsx
+      src
+      |__ Assets/
+        |__ images
+      |__ Wireframes/
+        |__ Wireframes.jsx
+      |__ Components/
+        |__ Home.jsx
+       |__ About.jsx
+        |__ Navigation.jsx
+        |__ Logo.jsx
+        |__ Dreams.jsx
+        |__ DozeOff.jsx
+        |__ Contact.jsx
+        |__ WakeUp.jsx
+        |__ Interpret.jsx
 
 **Component Breakdown**
 Component | Type | State | Props | Description
@@ -96,10 +95,9 @@ Axios | Make front end API calls to backend |
 ## Post MVP
 Once MVP is complete future features that would benefit this app and take it to the next level include but not limited to:
 
-- [ ] Comment Model
-- [ ] Packing List Model
-- [ ] Tags Model for specific locations  
-  E.g. Action, Experience, Food Tour, Water, Wind, Earth, Mountain, Relax, Solo, Friends, etc.
-- [ ] Search Bar to see locations, other users, or tags
-- [ ] Randomizer button link in Navigation Bar to display random location of another user & their bucketlist for that location for inspiration.  User's information will not be displayed; only location and bucketlist will be displayed
+- [ ] 
+- [ ] 
+- [ ]   
+- [ ] 
+- [ ] 
 
