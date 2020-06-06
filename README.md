@@ -36,7 +36,8 @@ DreamState logo - Orbitron, sans-serif
 Links - Wire One, sans-serif  
 Text - Open Sans, sans-serif  
 Headers/Subheaders - Montserrat, serif  
-**Color Scheme** 
+**Color Scheme**    
+![Color Gradient Photo](./ColorGradient.jpg)   
 
 **WireFrame Images**   
 <!-- Desktop & Tablet Renderings are the same.    -->
