@@ -36,11 +36,12 @@ Headers/Subheaders - Montserrat, serif
 ![Color Gradient Photo](./ColorGradient.jpg)   
 
 **WireFrame Images**   
-<!-- Desktop & Tablet Renderings are the same.    -->
+Desktop & Tablet Renderings are the same.   
 Refer to Wireframes Folder in this repository for a detailed view of each page's rendering.
-<!-- ![Wireframe Photo](./Wireframes/HomeDesktop.png) -->
+![Wireframe Photo](./Wireframes/Landing.png)
 
-<!-- **Component Heirarchy**
+**Component Heirarchy**
+
       src
       |__ Assets/
         |__ images
@@ -57,7 +58,12 @@ Refer to Wireframes Folder in this repository for a detailed view of each page's
         |__ DozeOff.jsx
         |__ Contact.jsx
         |__ WakeUp.jsx
-        |__ Interpret.jsx -->
+        |__ Interpret.jsx
+        |__ Books.jsx
+        |__ Tech.jsx
+        |__ Beauty.jsx
+        |__ Fashion.jsx
+        |__ Food.jsx
 
 **Component Breakdown**
 Component | Type | State | Props | Description
@@ -73,6 +79,11 @@ Doze Off | Class | Yes | No | Contains form for guest to submit questions, comme
 Contact | Class | Yes | No | Contains contact form. |
 Wake Up| Functional | No | No | Contains links to organizations and official donations sites, etc.  |
 Interpret | Functional | No | No | Contains links, resources, black-owned companies, best-seller books and educational materials to bring more awareness to guest. |
+Books | Functional | No | No | Sub-page of Interpret. |
+Tech | Functional | No | No | Sub-page of Interpret. |
+Beauty | Functional| No | No | Sub-page of Interpret. |
+Fashion | Functional | No | No | Sub-page of Interpret. |
+Food | Functional | No | No | Sub-page of Interpret. |
 
 
 **Component Tree**
