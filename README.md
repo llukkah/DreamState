@@ -36,6 +36,7 @@ Headers/Subheaders - Montserrat, serif
 ![Color Gradient Photo](./ColorGradient.jpg)   
 
 **WireFrame Images**   
+ [Figma Site Map Renderings](https://www.figma.com/file/A76wKnES6uQsjwS0CudKCx/DreamState?node-id=14%3A450)
 Desktop & Tablet Renderings are the same.   
 Refer to Wireframes Folder in this repository for a detailed view of each page's rendering.
 ![Wireframe Photo](./Wireframes/Landing.png)
