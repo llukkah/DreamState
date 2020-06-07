@@ -107,8 +107,7 @@ Axios | Make front end API calls to backend |
 ## Post MVP
 Once MVP is complete future features that would benefit this app and take it to the next level include but not limited to:
 
-- To Be Determined
-- To Be Determined
-- To Be Determined
-- To Be Determined
-- To Be Determined
+- When more extensive research and submissions are given, a database of Interpret's sub categories will be made.
+- Expand more categories of Interpret's resources.
+- Sort function of Dreams: by Year, or by Location.
+- Add a map for interactivity to see where Dreams are taking place.
