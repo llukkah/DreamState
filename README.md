@@ -3,16 +3,16 @@
 
 **DREAMSTATE** was made to support the African American communities around the world to give them an outlet to share their stories and experiences of their every day lives and struggles.  These stories of theirs are their personal experiences and realities and more likely than not to the outsider, seems like a dream.   
 
-DREAMSTATE is a place where non-POC can educate themselves, start being active in their communities to become better allies, support eachother, attend gatherings, spread awareness, etc.  
+DREAMSTATE is a place where people can educate themselves, start being active in their communities to become better allies, support eachother, attend gatherings, spread awareness, etc.  
 
-The more people see, hear and listen to eachother, this nightmare of a reality can end.
+The more people see, hear and listen to eachother, the sooner this nightmare of a reality can end.
 
 **Core Features**  
 Any person on this has the ability to create a dream.  
 
 **Goals**
 * Outlet for the African American Community to safely, free of judgement, share their stories.
-* Gives non-POC the chance to get a glimpse of what marginalized people experience and fear on an everyday basis.
+* Gives the world the chance to get a glimpse of what marginalized people experience and fear on an everyday basis.
 * Serve as a stepping stone for anyone and everyone to get educated, aware, and active of the injustices committed on an everyday basis across all communities and countries.
 
 
@@ -30,7 +30,7 @@ Backend Deployment - Heroku
 DreamState logo - Orbitron, sans-serif  
 Links - Wire One, sans-serif  
 Text - Open Sans, sans-serif  
-Headers/Subheaders - Montserrat, serif  
+Headers/Subheaders - Montserrat, sans-serif  
 **Color Scheme**    
 ![Color Gradient Photo](./ColorGradient.jpg)   
 
@@ -91,9 +91,10 @@ Food | Functional | No | No | Sub-page of Interpret. |
 
 **ERD Model**   
 ![ERD Model Photo](./ERDModel.png)   
-To prevent spam and user harassment as well as protect user anonminity, all stories will be directed to a site-specific account where they will be filtered out.  Stories will be posted on a rolling-weekly basis, and spam won't be clogging the purpose of the site.
+To prevent spam and user harassment as well as protect user anonminity, all stories will be directed to a site-specific account where they will be filtered out.  Stories will be posted on a rolling-weekly basis, and spam won't be clogging the purpose of the site.   
 
-**Dependancies**
+A seperate database will be made for resrouces of black-owned businesses.
+
 | Library | Purpose |
 | ------------ | ------------ |
 React | User interface rendering framework |
@@ -107,7 +108,6 @@ Axios | Make front end API calls to backend |
 ## Post MVP
 Once MVP is complete future features that would benefit this app and take it to the next level include but not limited to:
 
-- When more extensive research and submissions are given, a database of Interpret's sub categories will be made.
 - Expand more categories of Interpret's resources.
 - Sort function of Dreams: by Year, or by Location.
 - Add a map for interactivity to see where Dreams are taking place.
