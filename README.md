@@ -1,7 +1,7 @@
 ![DreamState Logo](./DreamStateHeader.png)
 
 
-**DREAMSTATE** was made to support the African American communities around the world to give them an outlet to share their stories and experiences of their every day lives and struggles.  These stories of theirs are their personal experiences and realities and more likely than not to the outsider, seems like a dream.   
+**DREAMSTATE** was made to support the Black communities around the world to give them an outlet to share their stories and experiences of their every day lives and struggles.  These stories of theirs are their personal experiences and realities and more likely than not to the outsider, seems like a dream.   
 
 DREAMSTATE is a place where people can educate themselves, start being active in their communities to become better allies, support eachother, attend gatherings, spread awareness, etc.  
 
@@ -11,7 +11,7 @@ The more people see, hear and listen to eachother, the sooner this nightmare of 
 Any person on this has the ability to create a dream.  
 
 **Goals**
-* Outlet for the African American Community to safely, free of judgement, share their stories.
+* Outlet for the Black Community to safely, free of judgement, share their stories.
 * Gives the world the chance to get a glimpse of what marginalized people experience and fear on an everyday basis.
 * Serve as a stepping stone for anyone and everyone to get educated, aware, and active of the injustices committed on an everyday basis across all communities and countries.
 
@@ -78,7 +78,7 @@ Contact | Class | Yes | No | Contains form prompting guest to submit a dream for
 Doze Off | Class | Yes | No | Contains form for guest to submit questions, comments, concerns. |
 Contact | Class | Yes | No | Contains contact form. |
 Wake Up| Functional | No | No | Contains links to organizations and official donations sites, etc.  |
-Interpret | Functional | No | No | Contains links, resources, black-owned companies, best-seller books and educational materials to bring more awareness to guest. |
+Interpret | Functional | No | No | Contains links, resources, Black-owned companies, best-seller books and educational materials to bring more awareness to guest. |
 Books | Functional | No | No | Sub-page of Interpret. |
 Tech | Functional | No | No | Sub-page of Interpret. |
 Beauty | Functional| No | No | Sub-page of Interpret. |
@@ -93,7 +93,7 @@ Food | Functional | No | No | Sub-page of Interpret. |
 ![ERD Model Photo](./ERDModel.png)   
 To prevent spam and user harassment as well as protect user anonminity, all stories will be directed to a site-specific account where they will be filtered out.  Stories will be posted on a rolling-weekly basis, and spam won't be clogging the purpose of the site.   
 
-A seperate database will be made for resrouces of black-owned businesses.
+A seperate database will be made for resrouces of Black-owned businesses.
 
 | Library | Purpose |
 | ------------ | ------------ |

@@ -1,0 +1,2 @@
+class Interpret < ApplicationRecord
+end
