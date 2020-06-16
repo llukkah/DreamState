@@ -1,0 +1,54 @@
+.layout {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 100px auto 100px;
+  grid-template-columns: 200px 125px auto 50px;
+  grid-template-areas:
+    "s a n n"
+    "s p p c"
+    "s b d d";
+}
+
+nav {
+  grid-area: n;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #1c1e1f;
+  color: #cfd0d2;
+}
+
+aside {
+  grid-area: s;
+  background-color: #e1e2e4;
+}
+
+.light-overlap-1 {
+  grid-area: a;
+  background-color: #e1e2e4;
+}
+
+.light-overlap-2 {
+  grid-area: b;
+  background-color: #e1e2e4;
+}
+
+.dark-overlap-3 {
+  grid-area: c;
+  background-color: #1c1e1f;
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  grid-area: d;
+  background-color: #1c1e1f;
+  width: 100%;
+  height: 100%;
+}
+
+.content-pane {
+  grid-area: p;
+  padding: 24px;
+}
