@@ -46,6 +46,6 @@ class InterpretsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def interpret_params
-      params.require(:interpret).permit(:name, :image_url, :description, :tag)
+      params.require(:interpret).permit(:name, :image_url, :website_url, :description, :tag)
     end
 end

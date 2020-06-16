@@ -12,7 +12,7 @@ class InterpretsControllerTest < ActionDispatch::IntegrationTest
 
   test "should create interpret" do
     assert_difference('Interpret.count') do
-      post interprets_url, params: { interpret: { description: @interpret.description, image_url: @interpret.image_url, name: @interpret.name, tag: @interpret.tag } }, as: :json
+      post interprets_url, params: { interpret: { description: @interpret.description, image_url: @interpret.image_url, name: @interpret.name, tag: @interpret.tag, website_url: @interpret.website_url } }, as: :json
     end
 
     assert_response 201
@@ -24,7 +24,7 @@ class InterpretsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update interpret" do
-    patch interpret_url(@interpret), params: { interpret: { description: @interpret.description, image_url: @interpret.image_url, name: @interpret.name, tag: @interpret.tag } }, as: :json
+    patch interpret_url(@interpret), params: { interpret: { description: @interpret.description, image_url: @interpret.image_url, name: @interpret.name, tag: @interpret.tag, website_url: @interpret.website_url } }, as: :json
     assert_response 200
   end
 
