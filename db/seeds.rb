@@ -7,6 +7,22 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 Dream.destroy_all
 Interpret.destroy_all
+
+#############################################
+#############################################
+################## Dreams ###################
+#############################################
+#############################################
+ dream1 = Dream.create(location: "Queens, NY", year: "2020", story: "Sometime in February, when I was at work, we were talking about the elections with my boss and one of the Caucasian lawyers that was there.  I asked both of them who they are interested in voting for and my boss wasn't sure yet but he said most likely Biden.  Then the lawyer said how he is actually endorsing Andrew Yang.  I then said, 'Oh yeah, the Asian guy.'  He makes a screwed up face like my response confused him.  He then says to me, 'Do you know how offensive that is? What if I said, 'Oh yeah that Black girl who works reception.'  I was confused and stunned by the statement he said to me because he said it as if I don't know I'm Black and I would be highly offended over someone saying that.  Two, since he is a white man, he wouldn't even know what it's like to walk in my shoes as a Black, young woman.  I was just shocked and disgusted by his comment.")
+
+ dream2 = Dream.create(location: "Queens, NY", year: "2020", story: "While I was looking for apartments, I went with my father and the landlord was a Jewish, white man.  He didn't even want to greet us when we came.  We had to wait for the realtor.  When the realtor showed us around, he just stood there and followed us carefully.  He has a dismissive demeanor and we had liked the place a lot and told the realtor we really wanted the apartment.  We contacted the realtor many times and never heard back.  My father said it right after we left he didn't think we were going to get the place.")
+
+ dream3 = Dream.create(location: "Brooklyn, NY", year: "2020", story: "I was once shopping in a department store in the makeup section and I was walking around the area looking for an item I wanted to purchase.  Suddenly, I noticed two of the white saleswomen following me around the area and looking at me suspiciously.  Normally a salesperson would ask a customer if they need help finding something or any assistance. But these sales women persisted in following me around and surveilling me and offered no help.  After recognizing this behavior, I asked them if there was an issue and if they wanted to help me instead of following me.  A few seconds later a white women walks into the smae makeup section as me and the same saleswomen flocked to the woman and asked if she needed any help.  In that moment, as a Black woman, I immediatley understood what took place.  After that I left the store because there's absolutely no reason for me to remain in a space where I am being watched and surveilled as if I was a theif and I would never spend my money in a place where I am treated as so.")
+
+ dream4 = Dream.create(location: "Queens, NY", year: "2010", story: "Growing up in a predominantly Jewish neighborhood, I face discrimination at a very young age.  I had alot of friends growing up who were Jewish and around 10/11 years old, I know we looked different but I ddidn't think it mattered.  Until one day, there was this new spod around our neighborhood called the Bukharian Teen Lounge.  Contrary to its name, this basement lounge funded by the community focused directly on Bukharian Jews and was open to the public.  Just not for Blacks, I remember being with all my Jewish/White friends and they all decided to go to the lounge.  They all just looked at me with this awkward start yelling, 'So where are you heading?'  This happened all Summer 2010.  The I knew.  I was different.  I didn't feel equal and at 10/11 years old, I came face to face that I will be treated differently for the rest of my life because of the color of my skin.")
+
+ p "#{Dream.count} dream(s) out of 4 dreams created"
+
 #############################################
 #############################################
 ############# Interpret - Food ##############
@@ -89,9 +105,9 @@ blackGirlsCode = Interpret.create(name: "Black Girls Code", image_url: "https://
 
 johnsonBatteryTechnologies = Interpret.create(name: "Johnson Battery Technologies", image_url: "https://i.imgur.com/mqM96JL.png", website_url: "https://www.johnsonbatterytech.com/", description: "Engineer and serial inventor Lonnie Johnson once disrupted summer vacations and pool parties forever when he invented the Super Soaker. But these days he has his sights set on a more ambitious goal. His newest company, Johnson Battery Technologies (JBT), is developing ceramic, solid-state battery technology designed to outperform lithium-ion batteries in terms of size, capacity, and lifespan. JBT says its batteries are also safer than lithium-ion due to the use of glass electrolytes instead of liquid electrolytes and are able to withstand temperatures up to 300 degrees Fahrenheit . JBT is currently engaging companies in the oil and gas, automotive, and medical device industries to bring products utilizing its battery technology to market. -Design News", tag: "Tech")
 
-devColor= Interpret.create(name: "/dev/color", image_url: "https://i.imgur.com/AzEwpMV.png", website_url: "https://www.devcolor.org/", description: "Black software engineers have historically faced challenges in reaching their full potential. We ensure Black engineers fulfill the promise of their talents, transform the industry, and use their resulting skills and position to give back to their communities.", tag: "Tech")
+devColor = Interpret.create(name: "/dev/color", image_url: "https://i.imgur.com/AzEwpMV.png", website_url: "https://www.devcolor.org/", description: "Black software engineers have historically faced challenges in reaching their full potential. We ensure Black engineers fulfill the promise of their talents, transform the industry, and use their resulting skills and position to give back to their communities.", tag: "Tech")
 
-code2040= Interpret.create(name: "Code2040", image_url: "https://i.imgur.com/Bb5U99r.png", website_url: "http://www.code2040.org/", description: "Our mission is to activate, connect, and mobilize the largest racial equity community in tech to dismantle the structural barriers that prevent the full participation and leadership of Black and Latinx people in the innovation economy.", tag: "Tech")
+code2040 = Interpret.create(name: "Code2040", image_url: "https://i.imgur.com/Bb5U99r.png", website_url: "http://www.code2040.org/", description: "Our mission is to activate, connect, and mobilize the largest racial equity community in tech to dismantle the structural barriers that prevent the full participation and leadership of Black and Latinx people in the innovation economy.", tag: "Tech")
 
 blackFemalFoundersEmpire = Interpret.create(name: "Black Female Founders Empire", image_url: "https://i.imgur.com/nPQL7Jj.png", website_url: "https://www.blackfemalefounders.org/", description: "Our mission is to provide awareness, promotion, support and resources for Black women led tech-based* and tech-enabled* startups throughout the U.S. and Black Diaspora.", tag: "")
 
@@ -172,11 +188,11 @@ thirteenth = Interpret.create(name: "13th, 2016", image_url: "https://i.imgur.co
 
 americanSon = Interpret.create(name: "American Son, 2019", image_url: "https://i.imgur.com/FK9UYwT.jpg", website_url: "https://www.netflix.com/title/81024100", description: "Time passes and tension mounts in a Florida police station as an estranged interracial couple awaits news of their missing teenage son.", tag: "Movies")
 
-dearWhitePeople = Interpret.create(name: "Dear White People, 2017", image_url: "https://i.imgur.com/uZnQCf6.jpg", website_url: "https://www.netflix.com/title/80095698", description: "Students of color navigate the daily slights and slippery politics of life at an Ivy League college that's not nearly as "post-racial" as it thinks.", tag: "Movies")
+dearWhitePeople = Interpret.create(name: "Dear White People, 2017", image_url: "https://i.imgur.com/uZnQCf6.jpg", website_url: "https://www.netflix.com/title/80095698", description: "Students of color navigate the daily slights and slippery politics of life at an Ivy League college that's not nearly as 'post-racial' as it thinks.", tag: "Movies")
 
 seeYouYesterday = Interpret.create(name: "See You Yesterday, 2019", image_url: "https://i.imgur.com/K2OzSQl.jpg", website_url: "https://www.netflix.com/title/80216758", description: "As two teen prodigies try to master the art of time travel, a tragic police shooting sends them on a series of dangerous trips to the past.", tag: "Movies")
 
-= Interpret.create(name: "The Help, 2011", image_url: "https://i.imgur.com/Sxss92i.jpg", website_url: "https://www.imdb.com/title/tt1454029/", description: "An aspiring author during the civil rights movement of the 1960s decides to write a book detailing the African American maids' point of view on the white families for which they work, and the hardships they go through on a daily basis. -IMDB", tag: "Movies")
+theHelp = Interpret.create(name: "The Help, 2011", image_url: "https://i.imgur.com/Sxss92i.jpg", website_url: "https://www.imdb.com/title/tt1454029/", description: "An aspiring author during the civil rights movement of the 1960s decides to write a book detailing the African American maids' point of view on the white families for which they work, and the hardships they go through on a daily basis. -IMDB", tag: "Movies")
 
 getOut = Interpret.create(name: "Get Out, 2017", image_url: "https://i.imgur.com/CgtGp5Q.jpg", website_url: "https://www.imdb.com/title/tt5052448/", description: "A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point. -IMDB", tag: "Movies")
 
@@ -194,12 +210,15 @@ theColorPurple = Interpret.create(name: "The Color Purple, 1985", image_url: "ht
 
 blackPanter = Interpret.create(name: "Black Panter, 2018", image_url: "https://i.imgur.com/tFVsqTS.jpg", website_url: "https://www.imdb.com/title/tt1825683/", description: "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and must confront a challenger from his country's past. -IMDB", tag: "Movies")
 
+selma = Interpret.create(name: "Selma, 2014", image_url: "https://i.imgur.com/nPRnrBu.jpg", website_url: "https://www.imdb.com/title/tt1020072/", description: "A chronicle of Dr. Martin Luther King, Jr.'s campaign to secure equal voting rights via an epic march from Selma to Montgomery, Alabama, in 1965. -IMDB", tag: "Movies")
 
-p "#{Interpret.count} interpret(s) out of 13 movies created"
+justMercy = Interpret.create(name: "Just Mercy, 2019", image_url: "https://i.imgur.com/tULiUmn.jpg", website_url: "https://www.justmercyfilm.com/", description: "Just Mercy is based on the powerful and thought-provoking true story of young lawyer Bryan Stevenson and his history-making battle for justice. After graduating from Harvard, Bryan had his pick of lucrative jobs. Instead, he heads to Alabama to defend those wrongly condemned or who were not afforded proper representation, with the support of local advocate Eva Ansley. One of his first, and most incendiary, cases is that of Walter McMillian, who, in 1987, was sentenced to die for the notorious murder of an 18-year-old girl, despite a preponderance of evidence proving his innocence and the fact that the main testimony against him came from a criminal with a motive to lie. In the years that follow, Bryan becomes embroiled in a labyrinth of legal and political maneuverings, as well as overt and unabashed racism as he fights for Walter, and others like him, with the odds—and the system—stacked against them.", tag: "Movies")
 
-p "#{Interpret.count} interpret(s) out of 64 total created"
-# Food/Beauty/Podcasts/Fashion/Tech/Media: Story, Mission Statement and/or About descriptions, taken directly from company’s website.
+p "#{Interpret.count} interpret(s) out of 15 movies created"
 
-
+p "#{Interpret.count} interpret(s) out of 66 total created"
+# Food/Beauty/Podcasts/Fashion/Tech/Media: Story, Mission Statement and/or About descriptions, taken directly from company’s website unless otherwise noted.
 # Books: Descriptions taken directly from Author's website unless otherwise noted.
+
 # = Interpret.create(name: "", image_url: "", website_url: "", description: "", tag: "")
+# = Dream.create(location: "", year: "", story: "")
