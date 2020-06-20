@@ -109,7 +109,7 @@ devColor = Interpret.create(name: "/dev/color", image_url: "https://i.imgur.com/
 
 code2040 = Interpret.create(name: "Code2040", image_url: "https://i.imgur.com/Bb5U99r.png", website_url: "http://www.code2040.org/", description: "Our mission is to activate, connect, and mobilize the largest racial equity community in tech to dismantle the structural barriers that prevent the full participation and leadership of Black and Latinx people in the innovation economy.", tag: "Tech")
 
-blackFemalFoundersEmpire = Interpret.create(name: "Black Female Founders Empire", image_url: "https://i.imgur.com/nPQL7Jj.png", website_url: "https://www.blackfemalefounders.org/", description: "Our mission is to provide awareness, promotion, support and resources for Black women led tech-based* and tech-enabled* startups throughout the U.S. and Black Diaspora.", tag: "")
+blackFemalFoundersEmpire = Interpret.create(name: "Black Female Founders Empire", image_url: "https://i.imgur.com/nPQL7Jj.png", website_url: "https://www.blackfemalefounders.org/", description: "Our mission is to provide awareness, promotion, support and resources for Black women led tech-based* and tech-enabled* startups throughout the U.S. and Black Diaspora.", tag: "Tech")
 
 p "#{Interpret.count} interpret(s) out of 6 tech created"
 
