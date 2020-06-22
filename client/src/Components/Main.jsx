@@ -7,7 +7,7 @@ const Main = () => {
   return (
     <>
       <Layout>
-        <h1>DreamState</h1>
+        {/* <h1>DreamState</h1> */}
         <Route exact path="/Food" render={() => <Food />} />
       </Layout>
     </>
