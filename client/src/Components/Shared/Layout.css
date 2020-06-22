@@ -51,4 +51,25 @@ footer {
 .content-pane {
   grid-area: p;
   padding: 24px;
+  overflow: auto;
+}
+
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: local('Montserrat-Light'), url(./Fonts/Montserrat-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: local('OpenSans-Light'), url(./Fonts/OpenSans-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  src: local('Orbitron'), url(./Fonts/Orbitron.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'WireOne-Regular';
+  src: local('WireOne-Regular'), url(./Fonts/WireOne-Regular.ttf) format('truetype');
 }

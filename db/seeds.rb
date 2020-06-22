@@ -28,7 +28,7 @@ Interpret.destroy_all
 ############# Interpret - Food ##############
 #############################################
 #############################################
-symphonyPotatoChips = Interpret.create(name: "Symphony Potato Chips", image_url: "https://i.imgur.com/s6yh1pG.png", website_url: "https://symphonychips.com/", description: "We began as a spice company! My dad Andre' Anderson is a retired Chef that worked on the famous Las Vegas Strip. While on the strip, he developed a custom blend that was sought after by patrons and fellow chefs alike. So naturally, when I tried it I was blown away! So much so that I convinced my dad that we needed to package and sell this ASAP! However, once we were featured in a grocery store we quickly learned that no one buys spices they cannot taste, no matter how pretty the package. So we begin doing in-store demonstrations! We started out by putting the spice on raw vegetables and popcorn. But it wasn't until we began putting it on homemade potato chips in the store did people begin to take notice. The feedback was the same, 'The spices are good, BUT WHERE CAN I GET A BAG OF THESE CHIPS!' So we had to listen to our customers and that's how Symphony Chips was born!", tag: "Food")
+symphonyPotatoChips = Interpret.create(name: "Symphony Potato Chips", image_url: "https://i.imgur.com/s6yh1pG.png", website_url: "https://symphonychips.com/", description: "We began as a spice company! My dad Andre Anderson is a retired Chef that worked on the famous Las Vegas Strip. While on the strip, he developed a custom blend that was sought after by patrons and fellow chefs alike. So naturally, when I tried it I was blown away! So much so that I convinced my dad that we needed to package and sell this ASAP! However, once we were featured in a grocery store we quickly learned that no one buys spices they cannot taste, no matter how pretty the package. So we begin doing in-store demonstrations! We started out by putting the spice on raw vegetables and popcorn. But it wasn't until we began putting it on homemade potato chips in the store did people begin to take notice. The feedback was the same, 'The spices are good, BUT WHERE CAN I GET A BAG OF THESE CHIPS!' So we had to listen to our customers and that's how Symphony Chips was born!", tag: "Food")
 
 mayasCookies = Interpret.create(name: "Maya's Cookies", image_url: "https://i.imgur.com/wxxWdYm.jpg",  website_url: "https://www.mayascookies.com/", description: " Maya's cookies are so delicious because I use only the finest organic, premium whole food ingredients. These cookies are made in small batches and mixed by hand for a genuine homemade taste. I am proud to say that Maya's Cookies are 100% plant based, dairy free and cruelty free.  You are going to LOVE them!", tag: "Food")
 
@@ -217,8 +217,6 @@ justMercy = Interpret.create(name: "Just Mercy, 2019", image_url: "https://i.img
 p "#{Interpret.count} interpret(s) out of 15 movies created"
 
 p "#{Interpret.count} interpret(s) out of 66 total created"
-# Food/Beauty/Podcasts/Fashion/Tech/Media: Story, Mission Statement and/or About descriptions, taken directly from company’s website unless otherwise noted.
-# Books: Descriptions taken directly from Author's website unless otherwise noted.
 
 # = Interpret.create(name: "", image_url: "", website_url: "", description: "", tag: "")
 # = Dream.create(location: "", year: "", story: "")
