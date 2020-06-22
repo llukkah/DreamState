@@ -25,13 +25,13 @@ export default function Food () {
         <div>
             <div className="food-list">
                 <h1 class="interpret-header">Food</h1>
-                <p class="interpret-disclaimer"> To add a company to the list, send your suggestion via the form on the contact page.</p>
+                <p class="interpret-disclaimer"> To add a company to the list, send your suggestions via the form on the contact page.</p>
                 <p class="interpret-disclaimer">Story, Mission Statement and/or About descriptions, taken directly from company’s website unless otherwise noted.</p>
 
                 {allFood.map((food, index) => (
                 <div key={index}>
                     <div class="interpret-info">
-                        <a href="{food.website_url}"><img class="interpret-image" src={food.image_url}/></a>
+                        <a href={food.website_url} target="_blank"><img class="interpret-image" src={food.image_url}/></a>
                         <div>
                             <p class="interpret-name">{food.name}</p>
                             <p class="interpret-description">{food.description}</p>
