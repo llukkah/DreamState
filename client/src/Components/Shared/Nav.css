@@ -9,20 +9,23 @@
     font-weight: 700;
 }
 .hover-link a p,
+.hover-link-1 a p,
+.hover-link a:hover p,
+.hover-link-1 a:hover p {
+    font-family: "OpenSans-Light", sans-serif;
+    letter-spacing: 5px;
+    color: #CFD0D2;
+}
+.hover-link a p,
 .hover-link-1 a p {
     display:none;
-    color: #CFD0D2;
-    letter-spacing: 5px;
     font-size: 48px;
-    font-family: "OpenSans-Light", sans-serif;
+    position: relative;
 }
 .hover-link a:hover p,
 .hover-link-1 a:hover p {
-    color: #CFD0D2;
-    letter-spacing: 5px;
     font-size: 10px;
     display: block;
-    font-family: "OpenSans-Light", sans-serif;
 }
 .hover-link-1 a:hover p {
     margin-left: 20px;
