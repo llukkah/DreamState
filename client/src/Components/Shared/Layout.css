@@ -52,6 +52,9 @@ footer {
   grid-area: p;
   padding: 24px;
   overflow: auto;
+  background-image: url(./Assets/splashBG.jpg);
+  background-size: 100% 100%;
+  
 }
 
 @font-face {
