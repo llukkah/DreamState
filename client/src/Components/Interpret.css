@@ -30,7 +30,33 @@
     color: #1D1E20;
     letter-spacing: 5px;
     margin-left: 25px;
+    position: relative;
 }
+
+.interpret-links::before {
+    content: "";
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    transition: .25s linear;
+    background-color: #ff5151;
+    transform: scaleX(0);
+}
+
+.interpret-links:hover::before {
+    width: 100%;
+    transform: scaleX(1);
+}
+
+
+
+
+
+
+
+
 
 .interpret-div {
     margin: 0 auto;

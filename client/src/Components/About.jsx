@@ -5,7 +5,7 @@ export default function About () {
     return (
         <div>
             <p class="about-header">DREAMSTATE</p>
-<p class="about-start">DREAMSTATE was made to support the African American communities around the world to give them an outlet to share their stories and experiences of their every day lives and struggles in safety and free of judgement. These stories of theirs are their personal experiences and realities and more likely than not to the outsider, seems like a dream.</p>
+<p class="about-start">DREAMSTATE was made to support the Black and African American communities around the world to give them an outlet to share their stories and experiences of their every day lives and struggles in safety and free of judgement. These stories of theirs are their personal experiences and realities and more likely than not to the outsider, seems like a dream.</p>
 
 <p>DREAMSTATE is a place where non-POC can educate themselves, start being active in their communities to become better allies, support eachother, attend gatherings, spread awareness, etc.</p>
 
