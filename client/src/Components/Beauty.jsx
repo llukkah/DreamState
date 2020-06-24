@@ -39,7 +39,3 @@ export default function Beauty () {
         </div>
     );
  }
-
-
-// # Food/Beauty/Podcasts/Fashion/Tech/Media: Story, Mission Statement and/or About descriptions, taken directly from company’s website unless otherwise noted.
-// # Books: Descriptions taken directly from Author's website unless otherwise noted.
