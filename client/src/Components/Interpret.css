@@ -10,9 +10,9 @@
     font-size: 30px;
     font-weight: 700;
 }
-.interpret-main-title-2 {
+.interpret-title-2 {
+    /* font-family: "OpenSans-Light", sans-serif; */
     font-family: 'Montserrat-Light';
-    margin-top: 0;
 }
 .interpret-main-header {
     letter-spacing: 5px;
@@ -29,6 +29,10 @@
     font-size: 35px;
     color: #1D1E20;
     letter-spacing: 5px;
-    /* margin-top: 30px; */
-    margin-left: 10px;
+    margin-left: 25px;
+}
+
+.interpret-div {
+    margin: 0 auto;
+    width: 800px;
 }
