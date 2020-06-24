@@ -8,6 +8,7 @@ import Fashion from "./Fashion.jsx"
 import Media from "./Media.jsx"
 import Podcasts from "./Podcasts.jsx"
 import Tech from "./Tech.jsx"
+import Interpret from "./Interpret.jsx"
 
 const Main = () => {
   return (
@@ -21,6 +22,7 @@ const Main = () => {
         <Route exact path="/Media" render={() => <Media />} />
         <Route exact path="/Podcast" render={() => <Podcasts />} />
         <Route exact path="/Tech" render={() => <Tech />} />
+        <Route exact path="/Interpret" render={() => <Interpret />} />
       </Layout>
     </>
   );

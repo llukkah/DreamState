@@ -1,0 +1,34 @@
+.interpret-body {
+    text-align: center;
+    background-color: rgba(225, 226, 228, 0.5);
+    /* width: 70vw; */
+}
+
+.interpret-title {
+    font-family: 'Montserrat-Light';
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.interpret-main-title-2 {
+    font-family: 'Montserrat-Light';
+    margin-top: 0;
+}
+.interpret-main-header {
+    letter-spacing: 5px;
+    font-size: 18px;
+    font-family: 'Montserrat-Light';
+    font-weight: 700;
+}
+
+.interpret-text {
+    font-family: "OpenSans-Light", sans-serif;
+}
+
+.interpret-links {
+    font-size: 35px;
+    color: #1D1E20;
+    letter-spacing: 5px;
+    /* margin-top: 30px; */
+    margin-left: 10px;
+}
