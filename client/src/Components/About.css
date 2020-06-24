@@ -1,0 +1,18 @@
+.about-header {
+    font-family: "Orbitron", sans-serif;
+    font-size: 48px;
+    color: #E1E2E4;
+    text-align: center;
+    letter-spacing: 10px;
+    margin-top: 0px;
+}
+.about-end {
+    text-align: center;
+}
+.about-start {
+    margin-top: 80px;
+}
+
+p {
+    font-family: "OpenSans-Light", sans-serif;
+}
