@@ -22,7 +22,7 @@ export default function WakeUp () {
         <hr></hr>
         <div class="links-div">
             <div class="wakeup-SJ-links">
-                <p class="wakeup-SJ-header">Social Justice Organizations:</p>
+                <p class="wakeup-SJ-header">Social Justice Organizations</p>
                     <div class="inner-links-div">
                         <a href="https://blacklivesmatter.com/" class="wakeup-links" target="_blank">Black Lives Matter</a>
                         <a href="https://www.aclu.org/" class="wakeup-links" target="_blank">American Civil Liberties Union</a>
@@ -38,7 +38,7 @@ export default function WakeUp () {
             </div>
 
             <div class="wakeup-SJ-links">
-                <p class="wakeup-SJ-header">Black LGBTQ Organizations:</p>
+                <p class="wakeup-SJ-header">Black LGBTQ Organizations</p>
                     <div class="inner-links-div">
                         <a href="https://www.snap4freedom.org"  class="wakeup-links"target="_blank">SNaP Co</a>
                         <a href="https://www.houseofgg.org" class="wakeup-links" target="_blank">House of GG</a>
@@ -55,7 +55,7 @@ export default function WakeUp () {
             </div>
     
             <div class="wakeup-SJ-links">
-                <p class="wakeup-SJ-header">Google Docs:</p>
+                <p class="wakeup-SJ-header">Google Docs</p>
                 <p class="wakeup-SJ-info">These docs contain a comprehensive list of Bail Out Funds across all states, GoFundMe pages for affected families from police brutality, petitions to sign,as well as additional resources that are updated daily:</p>
                    <div class="inner-links-div">
                         <a href="https://docs.google.com/document/d/1Xa9Av-NfuFsWBHlsMvPiqJHdNedZgnCRW56qAS-7PGQ/mobilebasic?urp=gmail_link" class="wakeup-links" target="_blank">Google Doc 1</a>
