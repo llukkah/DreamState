@@ -17,6 +17,10 @@ nav {
   justify-content: space-evenly;
   background-color: #1c1e1f;
   color: #cfd0d2;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  /* margin-bottom: 50px; */
+  
 }
 
 aside {
@@ -47,7 +51,6 @@ footer {
   width: 100%;
   height: 100%;
 }
-
 .content-pane {
   grid-area: p;
   padding: 24px;

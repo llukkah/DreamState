@@ -9,12 +9,22 @@ import Media from "./Media.jsx"
 import Podcasts from "./Podcasts.jsx"
 import Tech from "./Tech.jsx"
 import Interpret from "./Interpret.jsx"
+// import About from "./About.jsx"
+// import Dreams from "./Dreams.jsx"
+// import WakeUp from "./WakeUp.jsx"
+// import Contact from "./Contact.jsx"
+// import DozeOff from "./DozeOff.jsx"
 
 const Main = () => {
   return (
     <>
       <Layout>
-        {/* <h1>DreamState</h1> */}
+        {/* <Route exact path="/About" render={() => <About />} />
+        <Route exact path="/Dreams" render={() => <Dreams />} />
+        <Route exact path="/DozeOff" render={() => <DozeOff />} />
+        <Route exact path="/WakeUp" render={() => <WakeUp/>} /> */}
+        {/* <Route exact path="/Contact" render={() => <Contact />} /> */}
+        <Route exact path="/Food" render={() => <Food />} />
         <Route exact path="/Food" render={() => <Food />} />
         <Route exact path="/Beauty" render={() => <Beauty />} />
         <Route exact path="/Books" render={() => <Books />} />

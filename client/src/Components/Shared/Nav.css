@@ -1,0 +1,29 @@
+.nav-links {
+    color: #CFD0D2;
+    letter-spacing: 5px;
+    font-size: 48px;
+}
+.hover-link a p,
+.hover-link-1 a p {
+    display:none;
+    color: #CFD0D2;
+    letter-spacing: 5px;
+    font-size: 48px;
+    font-family: "OpenSans-Light", sans-serif;
+}
+.hover-link a:hover p,
+.hover-link-1 a:hover p {
+    color: #CFD0D2;
+    letter-spacing: 5px;
+    font-size: 10px;
+    display: block;
+    font-family: "OpenSans-Light", sans-serif;
+}
+
+.hover-link-1 a:hover p {
+    margin-left: 20px;
+}
+
+.hover-link a:hover {
+    display: block;
+}
