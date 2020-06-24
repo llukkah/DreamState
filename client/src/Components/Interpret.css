@@ -1,9 +1,7 @@
 .interpret-body {
     text-align: center;
     background-color: rgba(225, 226, 228, 0.5);
-    /* width: 70vw; */
 }
-
 .interpret-title {
     font-family: 'Montserrat-Light';
     letter-spacing: 5px;
@@ -11,7 +9,6 @@
     font-weight: 700;
 }
 .interpret-title-2 {
-    /* font-family: "OpenSans-Light", sans-serif; */
     font-family: 'Montserrat-Light';
 }
 .interpret-main-header {
@@ -20,11 +17,9 @@
     font-family: 'Montserrat-Light';
     font-weight: 700;
 }
-
 .interpret-text {
     font-family: "OpenSans-Light", sans-serif;
 }
-
 .interpret-links {
     font-size: 35px;
     color: #1D1E20;
@@ -32,7 +27,10 @@
     margin-left: 25px;
     position: relative;
 }
-
+.interpret-links:hover{
+    color: #ff5151;
+    font-weight: 700;
+}
 .interpret-links::before {
     content: "";
     position: absolute;
@@ -44,20 +42,10 @@
     background-color: #ff5151;
     transform: scaleX(0);
 }
-
 .interpret-links:hover::before {
     width: 100%;
     transform: scaleX(1);
 }
-
-
-
-
-
-
-
-
-
 .interpret-div {
     margin: 0 auto;
     width: 800px;

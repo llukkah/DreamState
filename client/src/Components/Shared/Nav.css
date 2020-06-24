@@ -2,6 +2,11 @@
     color: #CFD0D2;
     letter-spacing: 5px;
     font-size: 48px;
+    position: relative;
+}
+.nav-links:hover{
+    color: #ff5151;
+    font-weight: 700;
 }
 .hover-link a p,
 .hover-link-1 a p {
@@ -19,11 +24,25 @@
     display: block;
     font-family: "OpenSans-Light", sans-serif;
 }
-
 .hover-link-1 a:hover p {
     margin-left: 20px;
 }
-
-.hover-link a:hover {
-    display: block;
+.hover-link::before,
+.nav-links::before,
+.hover-link-1::before {
+    content: "";
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    transition: .25s linear;
+    background-color: #ff5151;
+    transform: scaleX(0);
+}
+.nav-links:hover::before,
+.hover-link:hover::before,
+.hover-link-1:hover::before {
+    width: 100%;
+    transform: scaleX(1);
 }
