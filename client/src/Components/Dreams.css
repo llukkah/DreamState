@@ -1,0 +1,25 @@
+.dream-header {
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-family: 'Montserrat-Light';
+    font-weight: 700;
+    color: #cfd0d2;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.dream-stat {
+    text-align: right;
+}
+.dreams-disclaimer {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.dream-div {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.dreams-info {
+    border-bottom: 2px solid #1c1e1f;
+}
