@@ -21,6 +21,11 @@ export const getOneDream = async (dreamId, dreamData) => {
     return resp.data;
   };
 
+export const getRandomDream = async () => {
+    const resp = await api.get(`/randomDream`);
+    return resp.data;
+  };
+
 // ========================================
 // ================ INTERPRET =============
 // ========================================

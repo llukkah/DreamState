@@ -14,11 +14,16 @@ import Dreams from "./Dreams.jsx"
 import WakeUp from "./WakeUp.jsx"
 // import Contact from "./Contact.jsx"
 // import DozeOff from "./DozeOff.jsx"
+import Home from "./Home.jsx"
+
+
 
 const Main = () => {
   return (
     <>
+    {/* <Route exact path="/" render={() => <Splash />} /> */}
       <Layout>
+    <Route exact path="/Home" render={() => <Home />} />
         <Route exact path="/About" render={() => <About />} />
         <Route exact path="/Dreams" render={() => <Dreams />} />
         {/* <Route exact path="/DozeOff" render={() => <DozeOff />} /> */}

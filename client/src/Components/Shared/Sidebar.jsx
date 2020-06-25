@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Sidebar = () => {
   return (
     <aside>
-      <Link to="/">
+      <Link to="/Home">
       <img class="DSLogo" src={DSLogo}/></Link>
       <p class="DSLogoText">DREAMSTATE</p>
     </aside>

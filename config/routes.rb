@@ -10,5 +10,6 @@ Rails.application.routes.draw do
   get '/podcast', to: 'interprets#podcast'
   get '/books', to: 'interprets#books'
   get '/movies', to: 'interprets#movies'
+  get '/randomDream', to: 'dreams#random_dream'
   # get '/artists', to: 'interprets#artists'
 end
