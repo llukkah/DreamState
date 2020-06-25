@@ -9,7 +9,6 @@
     "s p p c"
     "s b d d";
 }
-
 nav {
   grid-area: n;
   display: flex;
@@ -19,32 +18,25 @@ nav {
   color: #cfd0d2;
   padding-bottom: 100px;
   padding-top: 50px;
-  /* margin-bottom: 50px; */
-  
 }
-
 aside {
   grid-area: s;
   background-color: #e1e2e4;
 }
-
 .light-overlap-1 {
   grid-area: a;
   background-color: #e1e2e4;
 }
-
 .light-overlap-2 {
   grid-area: b;
   background-color: #e1e2e4;
 }
-
 .dark-overlap-3 {
   grid-area: c;
   background-color: #1c1e1f;
   width: 100%;
   height: 100%;
 }
-
 footer {
   grid-area: d;
   background-color: #1c1e1f;
@@ -57,29 +49,23 @@ footer {
   overflow: auto;
   background-image: url(./Assets/splashBG.jpg);
   background-size: 100% 100%;
-  
 }
-
 @font-face {
   font-family: 'Montserrat-Light';
   src: local('Montserrat-Light'), url(./Fonts/Montserrat-Light.ttf) format('truetype');
 }
-
 @font-face {
   font-family: 'OpenSans-Light';
   src: local('OpenSans-Light'), url(./Fonts/OpenSans-Light.ttf) format('truetype');
 }
-
 @font-face {
   font-family: 'Orbitron';
   src: local('Orbitron'), url(./Fonts/Orbitron.ttf) format('truetype');
 }
-
 @font-face {
   font-family: 'WireOne-Regular';
   src: local('WireOne-Regular'), url(./Fonts/WireOne-Regular.ttf) format('truetype');
 }
-
 a {
   font-family: 'WireOne-Regular', sans-serif;
   text-decoration: none;

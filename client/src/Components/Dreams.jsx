@@ -16,20 +16,21 @@ export default function Dreams () {
 
     return (
         <Layout>
-        <div class ="dream-div">
+            <div class ="dream-div">
                 <p class="dream-header">Dreams</p>
                 <p class="dreams-disclaimer"> To add a Dream to the list, send your suggestions via the form on the contact page.</p>
                 {allDreams.map((Dream, index) => (
-                <div key={index}>
-                    <div class="dreams-info">
-                        <p>{Dream.story} </p>
+                    <div key={index}>
+                        <div class="dreams-info">
+                            <p>{Dream.story} </p>
                         <div class="dream-stat">
                             <p class="dream-name">{Dream.location}, {Dream.year}</p>
                         </div>
+                        </div>
                     </div>
-                </div>
-                    ))}
+                ))}
+                <div class="filler"></div>
             </div>
-            </Layout>
+        </Layout>
     );
  }

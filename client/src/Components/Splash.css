@@ -1,1 +1,46 @@
-
+.DSSplashLogo {
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: slide-down 8s;
+    margin-top: 0%;
+}
+@keyframes slide-down {
+  from {
+    margin-top: -100%;
+  }
+  to {
+    margin-top: 0%;
+  }
+}
+.splashBG {
+height: 100vh;
+width: 100%;
+}
+.dream {
+    top: 50%;
+    bottom: 10%;
+}
+.state {
+    top: 65%;
+}
+.dream,
+.state {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-family: "Orbitron", sans-serif;
+    font-size: 60px;
+    letter-spacing: 30px;
+    color: #CFD0D2;
+    text-shadow: 1px 1px 2px #1D1E20; 
+    opacity: 0.0;
+    animation: fadeIn ease 45s;
+    -webkit-animation: fadeIn ease 45s;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}

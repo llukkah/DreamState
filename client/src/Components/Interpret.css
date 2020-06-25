@@ -2,20 +2,21 @@
     text-align: center;
     background-color: rgba(225, 226, 228, 0.5);
 }
+.interpret-main-header,
 .interpret-title {
-    font-family: 'Montserrat-Light';
     letter-spacing: 5px;
-    font-size: 30px;
     font-weight: 700;
 }
-.interpret-title-2 {
+.interpret-title {
+    font-size: 30px;
+}
+.interpret-title-2,
+.interpret-main-header,
+.interpret-title {
     font-family: 'Montserrat-Light';
 }
 .interpret-main-header {
-    letter-spacing: 5px;
     font-size: 18px;
-    font-family: 'Montserrat-Light';
-    font-weight: 700;
 }
 .interpret-text {
     font-family: "OpenSans-Light", sans-serif;

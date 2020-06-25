@@ -16,12 +16,11 @@ export default function Home () {
 
     return (
         <Layout>
-        <div class ="randdream-div">
-            <p>{randomDream.story} </p>
-            <p class="dream-name">{randomDream.location}, {randomDream.year}</p>
-
-       </div>
+            <div class ="randdream-div">
+                <p>{randomDream.story} </p>
+                <p class="dream-name">{randomDream.location}, {randomDream.year}</p>
+            </div>
        </Layout>
     );
- }
+}
 

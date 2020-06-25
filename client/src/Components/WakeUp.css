@@ -13,28 +13,32 @@
     color: #ff5151;
 }
 .wakeup-mainheader {
-    font-family: "OpenSans-Light", sans-serif;
-    text-align: center;
     font-size: 40px;
 }
-.wakeup-header {
+.wakeup-mainheader,
+.wakeup-SJ-info {
+    font-family: "OpenSans-Light", sans-serif;
+}
+.wakeup-header,
+.wakeup-SJ-header {
     font-family: "Montserrat", sans-serif;
-    text-align: center;
+}
+.wakeup-header {
     font-size: 20px;
 }
 .wakeup-info,
-.wakeup-subheader {
+.wakeup-subheader,
+.wakeup-mainheader,
+.wakeup-header  {
     text-align: center;
 }
 .wakeup-SJ-links {
     width: 300px;
 }
 .wakeup-SJ-header {
-    font-family: "Montserrat", sans-serif;
     font-size: 15px;
 }
 .wakeup-SJ-info {
-    font-family: "OpenSans-Light", sans-serif;
     font-size: 12px;
 }
 .links-div {
