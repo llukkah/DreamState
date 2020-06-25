@@ -27,7 +27,7 @@ export default function Movies () {
                 {allMovies.map((Movies, index) => (
                 <div key={index}>
                     <div class="interpret-info">
-                        <a href={Movies.website_url} target="_blank"><img class="interpret-image" alt="Movie Image" src={Movies.image_url}/></a>
+                        <a href={Movies.website_url} target="_blank"><img class="interpret-image" alt="Movie Poster" src={Movies.image_url}/></a>
                         <div>
                             <p class="interpret-name">{Movies.name}</p>
                             <p class="interpret-description">{Movies.description}</p>

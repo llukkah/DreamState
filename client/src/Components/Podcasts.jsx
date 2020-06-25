@@ -27,7 +27,7 @@ export default function Podcast () {
                 {allPodcast.map((Podcast, index) => (
                 <div key={index}>
                     <div class="interpret-info">
-                        <a href={Podcast.website_url} target="_blank"><img class="interpret-image"  alt="Podcast Image" src={Podcast.image_url}/></a>
+                        <a href={Podcast.website_url} target="_blank"><img class="interpret-image"  alt="Podcast Logo" src={Podcast.image_url}/></a>
                         <div>
                             <p class="interpret-name">{Podcast.name}</p>
                             <p class="interpret-description">{Podcast.description}</p>
