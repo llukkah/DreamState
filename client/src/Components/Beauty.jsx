@@ -27,7 +27,7 @@ export default function Beauty () {
                 {allBeauty.map((beauty, index) => (
                 <div key={index}>
                     <div class="interpret-info">
-                        <a href={beauty.website_url} target="_blank"><img class="interpret-image" src={beauty.image_url}/></a>
+                        <a href={beauty.website_url} target="_blank"><img class="interpret-image"  alt="Beauty Image" src={beauty.image_url}/></a>
                         <div>
                             <p class="interpret-name">{beauty.name}</p>
                             <p class="interpret-description">{beauty.description}</p>

@@ -27,7 +27,7 @@ export default function Tech () {
                 {allTech.map((Tech, index) => (
                 <div key={index}>
                     <div class="interpret-info">
-                        <a href={Tech.website_url} target="_blank"><img class="interpret-image" src={Tech.image_url}/></a>
+                        <a href={Tech.website_url} target="_blank"><img class="interpret-image"  alt="Tech Image" src={Tech.image_url}/></a>
                         <div>
                             <p class="interpret-name">{Tech.name}</p>
                             <p class="interpret-description">{Tech.description}</p>

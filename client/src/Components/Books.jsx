@@ -27,7 +27,7 @@ export default function Books () {
                 {allBooks.map((books, index) => (
                 <div key={index}>
                     <div class="interpret-info">
-                        <a href={books.website_url} target="_blank"><img class="interpret-image" src={books.image_url}/></a>
+                        <a href={books.website_url} target="_blank"><img class="interpret-image"  alt="Book Image" src={books.image_url}/></a>
                         <div>
                             <p class="interpret-name">{books.name}</p>
                             <p class="interpret-description">{books.description}</p>

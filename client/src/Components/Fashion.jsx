@@ -27,7 +27,7 @@ export default function Fashion () {
                 {allFashion.map((Fashion, index) => (
                 <div key={index}>
                     <div class="interpret-info">
-                        <a href={Fashion.website_url} target="_blank"><img class="interpret-image" src={Fashion.image_url}/></a>
+                        <a href={Fashion.website_url} target="_blank"><img class="interpret-image"  alt="Fashion Image" src={Fashion.image_url}/></a>
                         <div>
                             <p class="interpret-name">{Fashion.name}</p>
                             <p class="interpret-description">{Fashion.description}</p>

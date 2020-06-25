@@ -35,7 +35,7 @@ export default function Food () {
                 {allFood.map((food, index) => (
                 <div key={index}>
                     <div class="interpret-info">
-                        <a href={food.website_url} target="_blank"><img class="interpret-image" src={food.image_url}/></a>
+                        <a href={food.website_url} target="_blank"><img class="interpret-image"  alt="Food Image" src={food.image_url}/></a>
                         <div>
                             <p class="interpret-name">{food.name}</p>
                             <p class="interpret-description">{food.description}</p>

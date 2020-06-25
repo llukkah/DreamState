@@ -7,7 +7,7 @@ const Sidebar = () => {
   return (
     <aside>
       <Link to="/Home">
-      <img class="DSLogo" src={DSLogo}/></Link>
+      <img class="DSLogo"  alt="DreamState Logo" src={DSLogo}/></Link>
       <p class="DSLogoText">DREAMSTATE</p>
     </aside>
   );

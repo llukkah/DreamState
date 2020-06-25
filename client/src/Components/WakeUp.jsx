@@ -56,7 +56,7 @@ export default function WakeUp () {
     
             <div class="wakeup-SJ-links">
                 <p class="wakeup-SJ-header">Google Docs</p>
-                <p class="wakeup-SJ-info">These docs contain a comprehensive list of Bail Out Funds across all states, GoFundMe pages for affected families from police brutality, petitions to sign,as well as additional resources that are updated daily:</p>
+                <p class="wakeup-SJ-info">These docs contain a comprehensive list of Bail Out Funds across all states, GoFundMe pages for affected families from police brutality, petitions to sign, as well as additional resources that are updated daily.</p>
                    <div class="inner-links-div">
                         <a href="https://docs.google.com/document/d/1Xa9Av-NfuFsWBHlsMvPiqJHdNedZgnCRW56qAS-7PGQ/mobilebasic?urp=gmail_link" class="wakeup-links" target="_blank">Google Doc 1</a>
                        <a href="https://docs.google.com/document/u/1/d/e/2PACX-1vSrT26HMWX-_hlLfiyy9s95erjkOZVJdroXYkU-miaHRk58duAnJIUWKxImRkTITsYhwaFkghS8sfIF/pub?mc_cid=113beb9657&mc_eid=0ad6ddc623#h.zaba4bh85ex" class="wakeup-links" target="_blank">Google Doc 2</a>
