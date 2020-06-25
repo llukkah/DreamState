@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { getAllDreams } from "../Services/api-helper";
 import "./Dreams.css";
+import Layout from "./Shared/Layout";
 
 export default function Dreams () {
     useEffect(() => {
@@ -14,6 +15,7 @@ export default function Dreams () {
     const [allDreams, setAllDreams] = useState([]);
 
     return (
+        <Layout>
         <div class ="dream-div">
                 <p class="dream-header">Dreams</p>
                 <p class="dreams-disclaimer"> To add a Dream to the list, send your suggestions via the form on the contact page.</p>
@@ -28,5 +30,6 @@ export default function Dreams () {
                 </div>
                     ))}
             </div>
+            </Layout>
     );
  }

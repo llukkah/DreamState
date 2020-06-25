@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { getFashion } from "../Services/api-helper";
 import "./Food.css";
 import { Link } from "react-router-dom";
+import Layout from "./Shared/Layout";
 
 export default function Fashion () {
     useEffect(() => {
@@ -15,6 +16,7 @@ export default function Fashion () {
     const [allFashion, setFashion] = useState([]);
 
     return (
+        <Layout>
         <div>
             <div className="interpret-list">
                 <Link to="/Interpret" class="interpret-link">
@@ -37,5 +39,6 @@ export default function Fashion () {
                     ))}
             </div>
         </div>
+        </Layout>
     );
  }

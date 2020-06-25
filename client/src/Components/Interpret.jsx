@@ -2,9 +2,11 @@ import React from "react";
 import "./Interpret.css";
 import "./Shared/Layout.css";
 import { Link } from "react-router-dom";
+import Layout from "./Shared/Layout";
 
 export default function Interpret () {
     return (
+        <Layout>
     <div class="interpret-body">
         <p class="interpret-title">Want to be an Ally but don't know where to start ?</p>
         <p class="interpret-title-2">A place for education.  A place for awareness.  A place for reflection.</p>
@@ -43,5 +45,6 @@ export default function Interpret () {
             <p class="interpret-text">Mobile in any shape or form?  Join a protest and show your solidarity and support against the killing of black people.</p>
         </div>
     </div>
+    </Layout>
     );
 }

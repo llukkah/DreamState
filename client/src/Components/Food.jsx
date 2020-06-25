@@ -2,13 +2,9 @@ import React, { useState, useEffect } from "react";
 import { getFood } from "../Services/api-helper";
 import "./Food.css";
 import { Link } from "react-router-dom";
-
-
-
-
+import Layout from "./Shared/Layout";
 
 export default function Food () {
-    
     useEffect(() => {
         const fetchData = async () => {
             const resp = await getFood();
@@ -19,10 +15,8 @@ export default function Food () {
 
     const [allFood, setFood] = useState([]);
 
-
-
-
     return (
+        <Layout>
         <div>
             <div className="interpret-list">
                 <Link to="/Interpret" class="interpret-link">
@@ -45,9 +39,6 @@ export default function Food () {
                     ))}
             </div>
         </div>
+        </Layout>
     );
  }
-
-
-// # Food/Beauty/Podcasts/Fashion/Tech/Media: Story, Mission Statement and/or About descriptions, taken directly from company’s website unless otherwise noted.
-// # Books: Descriptions taken directly from Author's website unless otherwise noted.

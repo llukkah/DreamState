@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { getMovies } from "../Services/api-helper";
 import "./Food.css";
 import { Link } from "react-router-dom";
+import Layout from "./Shared/Layout";
 
 export default function Movies () {
     useEffect(() => {
@@ -15,6 +16,7 @@ export default function Movies () {
     const [allMovies, setMovies] = useState([]);
 
     return (
+        <Layout>
         <div>
             <div className="interpret-list">
                 <Link to="/Interpret" class="interpret-link">
@@ -37,5 +39,6 @@ export default function Movies () {
                     ))}
             </div>
         </div>
+        </Layout>
     );
  }

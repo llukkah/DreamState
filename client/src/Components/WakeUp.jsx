@@ -1,8 +1,10 @@
 import React from "react";
 import "./WakeUp.css";
+import Layout from "./Shared/Layout";
 
 export default function WakeUp () {
     return (
+        <Layout>
     <div class="wakeup-body">
         <p class="wakeup-mainheader">Wake Up</p>
         <p class="wakeup-subheader">A new way of staying active</p>
@@ -65,5 +67,6 @@ export default function WakeUp () {
         </div>
 {/* <a href="" class="wakeup-links" target="_blank">name</a> */}
     </div>
+    </Layout>
     );
  }

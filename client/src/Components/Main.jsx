@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "./Shared/Layout";
+// import Layout from "./Shared/Layout";
 import { Route } from "react-router-dom";
 import Food from "./Food.jsx";
 import Beauty from "./Beauty.jsx"
@@ -15,15 +15,16 @@ import WakeUp from "./WakeUp.jsx"
 // import Contact from "./Contact.jsx"
 // import DozeOff from "./DozeOff.jsx"
 import Home from "./Home.jsx"
+import Splash from "./Splash.jsx"
 
 
 
 const Main = () => {
   return (
     <>
-    {/* <Route exact path="/" render={() => <Splash />} /> */}
-      <Layout>
-    <Route exact path="/Home" render={() => <Home />} />
+    <Route exact path="/" render={() => <Splash />} />
+      {/* <Layout> */}
+        <Route exact path="/Home" render={() => <Home />} />
         <Route exact path="/About" render={() => <About />} />
         <Route exact path="/Dreams" render={() => <Dreams />} />
         {/* <Route exact path="/DozeOff" render={() => <DozeOff />} /> */}
@@ -37,7 +38,7 @@ const Main = () => {
         <Route exact path="/Podcast" render={() => <Podcasts />} />
         <Route exact path="/Tech" render={() => <Tech />} />
         <Route exact path="/Interpret" render={() => <Interpret />} />
-      </Layout>
+      {/* </Layout> */}
     </>
   );
 };
