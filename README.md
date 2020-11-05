@@ -17,12 +17,9 @@ Any person on this has the ability to create a dream.
 
 
 ## MVP 
-#### Deployed URL
-dreamstate.surge.sh
-
 #### Client (Front End)
 Frontend - React  
-Frontend Deployment - Surge 
+Frontend Deployment - Netlify
 
 #### Server (Back End)
 Backend - Ruby on Rails  
